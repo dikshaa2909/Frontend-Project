@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeoVerse | Virtual Reality Gaming Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="noise-overlay"></div>
+    
+    <header>
+        <nav>
+            <div class="logo">
+                <span class="logo-text">Neo<span class="highlight">Verse</span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#hardware">Hardware</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#community">Community</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <button class="btn btn-outline login-btn">Login</button>
+                <button class="btn btn-primary signup-btn">Sign Up</button>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Enter The NeoVerse">Enter The NeoVerse</h1>
+            <p>Experience gaming beyond reality with our cutting-edge VR platform. Immerse yourself in worlds limited only by imagination.</p>
+            <div class="hero-cta">
+                <button class="btn btn-primary">Get Started</button>
+                <button class="btn btn-outline watch-btn"><i class="fas fa-play"></i> Watch Demo</button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="counter" data-target="500">0</span>+
+                    <p>VR Games</p>
+                </div>
+                <div class="stat">
+                    <span class="counter" data-target="2">0</span>M+
+                    <p>Active Players</p>
+                </div>
+                <div class="stat">
+                    <span class="counter" data-target="98">0</span>%
+                    <p>Satisfaction</p>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="vr-headset">
+                <img src="https://source.unsplash.com/random/600x600/?vr,headset" alt="VR Headset">
+                <div class="glow-effect"></div>
+            </div>
+            <div class="floating-elements">
+                <div class="floating-cube cube-1"></div>
+                <div class="floating-cube cube-2"></div>
+                <div class="floating-cube cube-3"></div>
+                <div class="floating-cube cube-4"></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="section-header">
+            <h2>Redefine Your <span class="highlight">Reality</span></h2>
+            <p>Discover what makes NeoVerse the ultimate VR gaming platform</p>
+        </div>
+        <div class="features-container">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-vr-cardboard"></i>
+                </div>
+                <h3>Immersive Worlds</h3>
+                <p>Step into meticulously crafted virtual environments with unparalleled visual fidelity and spatial audio.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <h3>Haptic Feedback</h3>
+                <p>Feel every interaction with advanced haptic technology that brings a new dimension to gaming.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Multiplayer Arenas</h3>
+                <p>Connect with players worldwide in shared virtual spaces for cooperative or competitive gameplay.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>Neural Integration</h3>
+                <p>Our proprietary technology adapts to your play style for a personalized gaming experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="games" class="games">
+        <div class="section-header">
+            <h2>Featured <span class="highlight">Games</span></h2>
+            <p>Explore our most popular virtual reality experiences</p>
+        </div>
+        <div class="games-showcase">
+            <div class="game-card">
+                <div class="game-image">
+                    <img src="https://source.unsplash.com/random/600x400/?scifi,space" alt="Cosmic Odyssey">
+                    <div class="game-overlay">
+                        <div class="game-details">
+                            <h3>Cosmic Odyssey</h3>
+                            <p>Space Exploration | Adventure</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>4.5</span>
+                            </div>
+                            <button class="btn btn-primary">Play Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-info">
+                    <h3>Cosmic Odyssey</h3>
+                    <p>Explore the far reaches of the galaxy in this immersive space adventure.</p>
+                </div>
+            </div>
+            <div class="game-card">
+                <div class="game-image">
+                    <img src="https://source.unsplash.com/random/600x400/?cyberpunk,city" alt="Neon Shadows">
+                    <div class="game-overlay">
+                        <div class="game-details">
+                            <h3>Neon Shadows</h3>
+                            <p>Cyberpunk | Action RPG</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>4.9</span>
+                            </div>
+                            <button class="btn btn-primary">Play Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-info">
+                    <h3>Neon Shadows</h3>
+                    <p>Navigate a dystopian metropolis filled with danger and intrigue.</p>
+                </div>
+            </div>
+            <div class="game-card">
+                <div class="game-image">
+                    <img src="https://source.unsplash.com/random/600x400/?fantasy,magic" alt="Arcane Realms">
+                    <div class="game-overlay">
+                        <div class="game-details">
+                            <h3>Arcane Realms</h3>
+                            <p>Fantasy | MMORPG</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>4.0</span>
+                            </div>
+                            <button class="btn btn-primary">Play Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-info">
+                    <h3>Arcane Realms</h3>
+                    <p>Master magical abilities and forge alliances in this fantasy world.</p>
+                </div>
+            </div>
+            <div class="game-card">
+                <div class="game-image">
+                    <img src="https://source.unsplash.com/random/600x400/?racing,futuristic" alt="Velocity Surge">
+                    <div class="game-overlay">
+                        <div class="game-details">
+                            <h3>Velocity Surge</h3>
+                            <p>Racing | Multiplayer</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>4.7</span>
+                            </div>
+                            <button class="btn btn-primary">Play Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-info">
+                    <h3>Velocity Surge</h3>
+                    <p>Experience the adrenaline of high-speed racing in zero gravity.</p>
+                </div>
+            </div>
+        </div>
+        <div class="view-more">
+            <button class="btn btn-outline">View All Games</button>
+        </div>
+    </section>
+
+    <section id="hardware" class="hardware">
+        <div class="section-header">
+            <h2>Compatible <span class="highlight">Hardware</span></h2>
+            <p>NeoVerse works seamlessly with leading VR devices</p>
+        </div>
+        <div class="hardware-showcase">
+            <div class="hardware-slider">
+                <div class="hardware-slide active">
+                    <div class="hardware-image">
+                        <img src="https://source.unsplash.com/random/500x500/?vr,headset,technology" alt="NeoVerse Pro">
+                    </div>
+                    <div class="hardware-info">
+                        <h3>NeoVerse Pro</h3>
+                        <p class="hardware-tagline">Our flagship VR headset with industry-leading specs</p>
+                        <ul class="hardware-specs">
+                            <li><i class="fas fa-microchip"></i> Quantum Processor</li>
+                            <li><i class="fas fa-eye"></i> 8K Per-Eye Resolution</li>
+                            <li><i class="fas fa-battery-full"></i> 8-Hour Battery Life</li>
+                            <li><i class="fas fa-weight"></i> Ultralight Design (280g)</li>
+                            <li><i class="fas fa-wifi"></i> Wireless Connectivity</li>
+                        </ul>
+                        <div class="hardware-price">
+                            <span>$499</span>
+                            <button class="btn btn-primary">Pre-Order</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="hardware-slide">
+                    <div class="hardware-image">
+                        <img src="https://source.unsplash.com/random/500x500/?vr,controller,technology" alt="NeoVerse Controllers">
+                    </div>
+                    <div class="hardware-info">
+                        <h3>NeoVerse Controllers</h3>
+                        <p class="hardware-tagline">Advanced haptic controllers for precise interaction</p>
+                        <ul class="hardware-specs">
+                            <li><i class="fas fa-hand-paper"></i> Finger Tracking</li>
+                            <li><i class="fas fa-compress-arrows-alt"></i> Pressure Sensitivity</li>
+                            <li><i class="fas fa-battery-full"></i> 30-Hour Battery Life</li>
+                            <li><i class="fas fa-temperature-low"></i> Thermal Feedback</li>
+                            <li><i class="fas fa-tachometer-alt"></i> Sub-millisecond Response</li>
+                        </ul>
+                        <div class="hardware-price">
+                            <span>$199</span>
+                            <button class="btn btn-primary">Pre-Order</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="hardware-slide">
+                    <div class="hardware-image">
+                        <img src="https://source.unsplash.com/random/500x500/?vr,suit,technology" alt="NeoVerse Haptic Suit">
+                    </div>
+                    <div class="hardware-info">
+                        <h3>NeoVerse Haptic Suit</h3>
+                        <p class="hardware-tagline">Full-body immersion for the ultimate VR experience</p>
+                        <ul class="hardware-specs">
+                            <li><i class="fas fa-tshirt"></i> Lightweight Fabric</li>
+                            <li><i class="fas fa-heartbeat"></i> 200+ Haptic Points</li>
+                            <li><i class="fas fa-thermometer-half"></i> Temperature Regulation</li>
+                            <li><i class="fas fa-running"></i> Motion Tracking</li>
+                            <li><i class="fas fa-battery-full"></i> 6-Hour Active Use</li>
+                        </ul>
+                        <div class="hardware-price">
+                            <span>$799</span>
+                            <button class="btn btn-primary">Pre-Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+        <div class="compatibility">
+            <h3>Also Compatible With</h3>
+            <div class="compatibility-logos">
+                <div class="logo-item">
+                    <img src="https://source.unsplash.com/random/100x100/?logo,tech" alt="Compatible Brand">
+                    <span>OculusVR</span>
+                </div>
+                <div class="logo-item">
+                    <img src="https://source.unsplash.com/random/100x100/?logo,tech" alt="Compatible Brand">
+                    <span>HTC Vive</span>
+                </div>
+                <div class="logo-item">
+                    <img src="https://source.unsplash.com/random/100x100/?logo,tech" alt="Compatible Brand">
+                    <span>Valve Index</span>
+                </div>
+                <div class="logo-item">
+                    <img src="https://source.unsplash.com/random/100x100/?logo,tech" alt="Compatible Brand">
+                    <span>PlayStation VR</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="section-header">
+            <h2>Subscription <span class="highlight">Plans</span></h2>
+            <p>Choose the perfect plan for your virtual adventures</p>
+        </div>
+        <div class="pricing-toggle">
+            <span>Monthly</span>
+            <label class="switch">
+                <input type="checkbox" id="pricing-toggle">
+                <span class="slider"></span>
+            </label>
+            <span>Yearly <span class="save-badge">Save 20%</span></span>
+        </div>
+        <div class="pricing-cards">
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3>Basic</h3>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">9.99</span>
+                        <span class="period">/month</span>
+                    </div>
+                </div>
+                <ul class="pricing-features">
+                    <li><i class="fas fa-check"></i> Access to 100+ VR games</li>
+                    <li><i class="fas fa-check"></i> Standard definition streaming</li>
+                    <li><i class="fas fa-check"></i> Single device support</li>
+                    <li class="disabled"><i class="fas fa-times"></i> No multiplayer access</li>
+                    <li class="disabled"><i class="fas fa-times"></i> No exclusive content</li>
+                </ul>
+                <button class="btn btn-outline">Get Started</button>
+            </div>
+            <div class="pricing-card featured">
+                <div class="popular-badge">Most Popular</div>
+                <div class="pricing-header">
+                    <h3>Premium</h3>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">19.99</span>
+                        <span class="period">/month</span>
+                    </div>
+                </div>
+                <ul class="pricing-features">
+                    <li><i class="fas fa-check"></i> Access to 300+ VR games</li>
+                    <li><i class="fas fa-check"></i> 4K HD streaming</li>
+                    <li><i class="fas fa-check"></i> Multi-device support</li>
+                    <li><i class="fas fa-check"></i> Multiplayer access</li>
+                    <li><i class="fas fa-check"></i> Monthly exclusive content</li>
+                </ul>
+                <button class="btn btn-primary">Get Started</button>
+            </div>
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3>Ultimate</h3>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">29.99</span>
+                        <span class="period">/month</span>
+                    </div>
+                </div>
+                <ul class="pricing-features">
+                    <li><i class="fas fa-check"></i> Access to ALL VR games</li>
+                    <li><i class="fas fa-check"></i> 8K streaming</li>
+                    <li><i class="fas fa-check"></i> Unlimited devices</li>
+                    <li><i class="fas fa-check"></i> Priority multiplayer servers</li>
+                    <li><i class="fas fa-check"></i> Weekly exclusive content</li>
+                    <li><i class="fas fa-check"></i> Early access to new releases</li>
+                </ul>
+                <button class="btn btn-outline">Get Started</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="community" class="community">
+        <div class="section-header">
+            <h2>Join Our <span class="highlight">Community</span></h2>
+            <p>Connect with fellow VR enthusiasts around the globe</p>
+        </div>
+        <div class="testimonials">
+            <div class="testimonial-card">
+                <div class="testimonial-avatar">
+                    <img src="https://source.unsplash.com/random/100x100/?portrait,person" alt="User Avatar">
+                </div>
+                <div class="testimonial-content">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"NeoVerse has completely transformed my gaming experience. The immersion is unlike anything I've ever experienced before."</p>
+                    <div class="testimonial-author">
+                        <h4>Alex Morgan</h4>
+                        <span>Pro Gamer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-avatar">
+                    <img src="https://source.unsplash.com/random/100x100/?portrait,woman" alt="User Avatar">
+                </div>
+                <div class="testimonial-content">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"The multiplayer functionality is seamless, and the community is incredibly welcoming. I've made friends from all over the world."</p>
+                    <div class="testimonial-author">
+                        <h4>Samantha Lee</h4>
+                        <span>VR Enthusiast</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-avatar">
+                    <img src="https://source.unsplash.com/random/100x100/?portrait,man" alt="User Avatar">
+                </div>
+                <div class="testimonial-content">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"As a game developer, I'm impressed by the platform's capabilities. Creating for NeoVerse has opened up entirely new possibilities."</p>
+                    <div class="testimonial-author">
+                        <h4>David Chen</h4>
+                        <span>Game Developer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="community-stats">
+            <div class="stat-item">
+                <div class="stat-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <div class="stat-number counter" data-target="50000">0</div>
+                <div class="stat-label">Community Members</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="stat-number counter" data-target="120">0</div>
+                <div class="stat-label">Countries</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <div class="stat-number counter" data-target="10000">0</div>
+                <div class="stat-label">Hours Played Daily</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <div class="stat-number counter" data-target="5000">0</div>
+                <div class="stat-label">Active Forums</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="cta-content">
+            <h2>Ready to Enter the <span class="highlight">NeoVerse</span>?</h2>
+            <p>Join thousands of players already exploring virtual worlds beyond imagination.</p>
+            <button class="btn btn-primary">Get Started Now</button>
+        </div>
+        <div class="cta-image">
+            <img src="https://source.unsplash.com/random/600x400/?vr,gaming" alt="VR Gaming">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-text">Neo<span class="highlight">Verse</span></span>
+                <p>Redefining virtual reality gaming</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Platform</h3>
+                    <ul>
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">Hardware</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">GDPR</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 NeoVerse VR Gaming. All rights reserved.</p>
+            <div class="language-selector">
+                <i class="fas fa-globe"></i>
+                <select>
+                    <option>English</option>
+                    <option>Español</option>
+                    <option>Français</option>
+                    <option>Deutsch</option>
+                    <option>日本語</option>
+                </select>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="login-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h2>Welcome Back</h2>
+                <p>Log in to continue your VR journey</p>
+            </div>
+            <form class="login-form">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password">
+                </div>
+                <div class="form-options">
+                    <label class="checkbox-container">
+                        Remember me
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn btn-primary">Log In</button>
+                <div class="social-login">
+                    <p>Or log in with</p>
+                    <div class="social-buttons">
+                        <button class="social-btn google"><i class="fab fa-google"></i> Google</button>
+                        <button class="social-btn facebook"><i class="fab fa-facebook-f"></i> Facebook</button>
+                    </div>
+                </div>
+            </form>
+            <div class="modal-footer">
+                <p>Don't have an account? <a href="#" class="signup-link">Sign Up</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="signup-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h2>Join NeoVerse</h2>
+                <p>Create an account to start your VR adventure</p>
+            </div>
+            <form class="signup-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Enter your full name">
+                </div>
+                <div class="form-group">
+                    <label for="signup-email">Email</label>
+                    <input type="email" id="signup-email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="signup-password">Password</label>
+                    <input type="password" id="signup-password" placeholder="Create a password">
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" placeholder="Confirm your password">
+                </div>
+                <div class="form-options">
+                    <label class="checkbox-container">
+                        I agree to the Terms of Service and Privacy Policy
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+                <div class="social-login">
+                    <p>Or sign up with</p>
+                    <div class="social-buttons">
+                        <button class="social-btn google"><i class="fab fa-google"></i> Google</button>
+                        <button class="social-btn facebook"><i class="fab fa-facebook-f"></i> Facebook</button>
+                    </div>
+                </div>
+            </form>
+            <div class="modal-footer">
+                <p>Already have an account? <a href="#" class="login-link">Log In</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="video-modal">
+        <div class="modal-content video-content">
+            <span class="close-modal">&times;</span>
+            <div class="video-container">
+                <iframe width="560" height="315" src="about:blank" title="NeoVerse Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
