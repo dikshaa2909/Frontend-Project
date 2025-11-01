@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCraft Academy | Online Coding Bootcamp</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <span class="code-tag">&lt;</span>
+                <h1>CodeCraft<span>Academy</span></h1>
+                <span class="code-tag">/&gt;</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#curriculum">Curriculum</a></li>
+                    <li><a href="#mentors">Mentors</a></li>
+                    <li><a href="#testimonials">Success Stories</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+            <div class="cta-button">
+                <a href="#trial" class="btn btn-primary">Start Free Trial</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="badge">
+                        <span>New Courses for 2023</span>
+                    </div>
+                    <h1>Learn to <span class="gradient-text">Code</span> and Launch Your Tech Career</h1>
+                    <p>Master in-demand programming skills with our immersive online bootcamp. Get job-ready with real-world projects and 1-on-1 mentorship from industry experts.</p>
+                    <div class="hero-buttons">
+                        <a href="#trial" class="btn btn-primary">Start Free Trial</a>
+                        <a href="#courses" class="btn btn-secondary">Explore Courses</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span>93%</span>
+                            <p>Job Placement</p>
+                        </div>
+                        <div class="stat">
+                            <span>15k+</span>
+                            <p>Graduates</p>
+                        </div>
+                        <div class="stat">
+                            <span>300+</span>
+                            <p>Hiring Partners</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="code-window">
+                        <div class="code-header">
+                            <div class="dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="code-title">main.js</div>
+                        </div>
+                        <div class="code-body">
+                            <pre><code><span class="keyword">function</span> <span class="function">launchCareer</span>() {
+  <span class="keyword">const</span> <span class="variable">skills</span> = [
+    <span class="string">'JavaScript'</span>,
+    <span class="string">'React'</span>,
+    <span class="string">'Node.js'</span>,
+    <span class="string">'Python'</span>
+  ];
+  
+  <span class="keyword">const</span> <span class="variable">you</span> = {
+    <span class="property">potential</span>: <span class="string">'unlimited'</span>,
+    <span class="property">future</span>: <span class="string">'bright'</span>
+  };
+  
+  <span class="keyword">return</span> <span class="variable">you</span>.<span class="property">potential</span> + 
+    <span class="variable">skills</span>.<span class="function">join</span>(<span class="string">', '</span>);
+}</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shape-divider">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Trusted By Section -->
+    <section class="trusted-by">
+        <div class="container">
+            <p>Trusted by leading tech companies</p>
+            <div class="company-logos">
+                <div class="company-logo">
+                    <img src="/placeholder.svg?height=50&width=120" alt="Google">
+                </div>
+                <div class="company-logo">
+                    <img src="/placeholder.svg?height=50&width=120" alt="Microsoft">
+                </div>
+                <div class="company-logo">
+                    <img src="/placeholder.svg?height=50&width=120" alt="Amazon">
+                </div>
+                <div class="company-logo">
+                    <img src="/placeholder.svg?height=50&width=120" alt="Facebook">
+                </div>
+                <div class="company-logo">
+                    <img src="/placeholder.svg?height=50&width=120" alt="Apple">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="gradient-text">Courses</span></h2>
+                <p>Comprehensive programs designed to take you from beginner to job-ready</p>
+            </div>
+            <div class="course-filter">
+                <button class="filter-btn active" data-filter="all">All Courses</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                <button class="filter-btn" data-filter="data">Data Science</button>
+            </div>
+            <div class="courses-grid">
+                <div class="course-card" data-category="frontend">
+                    <div class="course-badge">Most Popular</div>
+                    <div class="course-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Frontend Web Development</h3>
+                    <p class="course-duration">12 Weeks • Part-time or Full-time</p>
+                    <p class="course-description">Master HTML, CSS, JavaScript, and modern frameworks like React to build stunning, responsive websites.</p>
+                    <div class="course-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                    </div>
+                    <div class="course-footer">
+                        <a href="#" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+                <div class="course-card" data-category="backend">
+                    <div class="course-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p class="course-duration">14 Weeks • Part-time or Full-time</p>
+                    <p class="course-description">Build robust server-side applications with Node.js, Express, and databases like MongoDB and PostgreSQL.</p>
+                    <div class="course-tech">
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                        <span>SQL</span>
+                    </div>
+                    <div class="course-footer">
+                        <a href="#" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+                <div class="course-card" data-category="fullstack">
+                    <div class="course-badge">High Demand</div>
+                    <div class="course-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Full Stack Development</h3>
+                    <p class="course-duration">24 Weeks • Part-time or Full-time</p>
+                    <p class="course-description">Become a versatile developer with skills in both frontend and backend technologies, plus DevOps essentials.</p>
+                    <div class="course-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>AWS</span>
+                    </div>
+                    <div class="course-footer">
+                        <a href="#" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+                <div class="course-card" data-category="data">
+                    <div class="course-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Data Science & Machine Learning</h3>
+                    <p class="course-duration">16 Weeks • Part-time or Full-time</p>
+                    <p class="course-description">Learn Python, data analysis, visualization, and machine learning algorithms to extract insights from data.</p>
+                    <div class="course-tech">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>TensorFlow</span>
+                        <span>SQL</span>
+                    </div>
+                    <div class="course-footer">
+                        <a href="#" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose <span class="gradient-text">CodeCraft Academy</span></h2>
+                <p>What sets our bootcamp apart from the rest</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Industry Expert Instructors</h3>
+                    <p>Learn from senior developers with years of experience at top tech companies who bring real-world insights to every lesson.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>Project-Based Learning</h3>
+                    <p>Build a professional portfolio with real-world projects that demonstrate your skills to potential employers.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>1-on-1 Mentorship</h3>
+                    <p>Get personalized guidance and code reviews from experienced mentors dedicated to your success.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Career Support</h3>
+                    <p>Receive resume help, interview preparation, and direct connections to our network of hiring partners.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Flexible Learning</h3>
+                    <p>Choose between part-time and full-time options with schedules that fit your life and learning pace.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Community Support</h3>
+                    <p>Join a vibrant community of learners and alumni for networking, support, and collaboration.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum Section -->
+    <section id="curriculum" class="curriculum">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="gradient-text">Curriculum</span></h2>
+                <p>A structured learning path designed to build your skills progressively</p>
+            </div>
+            <div class="curriculum-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-number">1</div>
+                    <div class="timeline-content">
+                        <h3>Foundations</h3>
+                        <p>Build a solid foundation in programming fundamentals, development environments, and version control.</p>
+                        <ul>
+                            <li>Programming basics and logic</li>
+                            <li>Command line and Git</li>
+                            <li>HTML, CSS fundamentals</li>
+                            <li>JavaScript essentials</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">2</div>
+                    <div class="timeline-content">
+                        <h3>Core Technologies</h3>
+                        <p>Dive deeper into the core technologies of your chosen track, with hands-on projects and exercises.</p>
+                        <ul>
+                            <li>Advanced JavaScript concepts</li>
+                            <li>Frontend frameworks (React/Vue)</li>
+                            <li>Backend development (Node.js)</li>
+                            <li>Database design and implementation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">3</div>
+                    <div class="timeline-content">
+                        <h3>Advanced Concepts</h3>
+                        <p>Master advanced concepts and specialized technologies relevant to your career goals.</p>
+                        <ul>
+                            <li>State management and advanced patterns</li>
+                            <li>API design and implementation</li>
+                            <li>Authentication and security</li>
+                            <li>Testing and debugging</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">4</div>
+                    <div class="timeline-content">
+                        <h3>Capstone Project</h3>
+                        <p>Apply everything you've learned to build a comprehensive full-stack application for your portfolio.</p>
+                        <ul>
+                            <li>Project planning and architecture</li>
+                            <li>Agile development methodology</li>
+                            <li>Full-stack implementation</li>
+                            <li>Deployment and DevOps</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-number">5</div>
+                    <div class="timeline-content">
+                        <h3>Career Preparation</h3>
+                        <p>Prepare for your job search with resume building, interview practice, and networking opportunities.</p>
+                        <ul>
+                            <li>Technical interview preparation</li>
+                            <li>Portfolio refinement</li>
+                            <li>Resume and LinkedIn optimization</li>
+                            <li>Networking and job search strategies</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mentors Section -->
+    <section id="mentors" class="mentors">
+        <div class="container">
+            <div class="section-header">
+                <h2>Meet Your <span class="gradient-text">Mentors</span></h2>
+                <p>Learn from industry professionals with years of real-world experience</p>
+            </div>
+            <div class="mentors-grid">
+                <div class="mentor-card">
+                    <div class="mentor-image">
+                        <img src="/placeholder.svg?height=300&width=300" alt="Sarah Johnson">
+                    </div>
+                    <div class="mentor-info">
+                        <h3>Sarah Johnson</h3>
+                        <p class="mentor-role">Senior Frontend Developer</p>
+                        <p class="mentor-company">Previously at Google, Meta</p>
+                        <p class="mentor-bio">10+ years of experience building scalable web applications with React and modern JavaScript.</p>
+                        <div class="mentor-tech">
+                            <span>React</span>
+                            <span>JavaScript</span>
+                            <span>TypeScript</span>
+                        </div>
+                        <div class="mentor-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mentor-card">
+                    <div class="mentor-image">
+                        <img src="/placeholder.svg?height=300&width=300" alt="David Chen">
+                    </div>
+                    <div class="mentor-info">
+                        <h3>David Chen</h3>
+                        <p class="mentor-role">Full Stack Engineer</p>
+                        <p class="mentor-company">Previously at Amazon, Stripe</p>
+                        <p class="mentor-bio">Full stack developer specializing in Node.js backends and distributed systems architecture.</p>
+                        <div class="mentor-tech">
+                            <span>Node.js</span>
+                            <span>AWS</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="mentor-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mentor-card">
+                    <div class="mentor-image">
+                        <img src="/placeholder.svg?height=300&width=300" alt="Maria Rodriguez">
+                    </div>
+                    <div class="mentor-info">
+                        <h3>Maria Rodriguez</h3>
+                        <p class="mentor-role">Data Scientist</p>
+                        <p class="mentor-company">Previously at Netflix, IBM</p>
+                        <p class="mentor-bio">Machine learning expert with experience in predictive analytics and recommendation systems.</p>
+                        <div class="mentor-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>SQL</span>
+                        </div>
+                        <div class="mentor-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mentor-card">
+                    <div class="mentor-image">
+                        <img src="/placeholder.svg?height=300&width=300" alt="James Wilson">
+                    </div>
+                    <div class="mentor-info">
+                        <h3>James Wilson</h3>
+                        <p class="mentor-role">DevOps Engineer</p>
+                        <p class="mentor-company">Previously at Microsoft, Atlassian</p>
+                        <p class="mentor-bio">Specializes in CI/CD pipelines, containerization, and cloud infrastructure automation.</p>
+                        <div class="mentor-tech">
+                            <span>Docker</span>
+                            <span>Kubernetes</span>
+                            <span>AWS</span>
+                        </div>
+                        <div class="mentor-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Success <span class="gradient-text">Stories</span></h2>
+                <p>Hear from our graduates who transformed their careers through our bootcamp</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"After 10 years in retail, I decided to make a career change. CodeCraft Academy gave me the skills and confidence to land a job as a frontend developer at a tech startup. The mentorship and project-based curriculum made all the difference."</p>
+                            <div class="testimonial-info">
+                                <div class="testimonial-image">
+                                    <img src="/placeholder.svg?height=80&width=80" alt="Michael Brown">
+                                </div>
+                                <div class="testimonial-author">
+                                    <h4>Michael Brown</h4>
+                                    <p>Frontend Developer at TechStart</p>
+                                    <p class="testimonial-outcome">Salary increased by 85%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"The Full Stack Development course was intense but incredibly rewarding. The instructors were supportive and the curriculum was up-to-date with industry standards. Within a month of graduating, I received multiple job offers."</p>
+                            <div class="testimonial-info">
+                                <div class="testimonial-image">
+                                    <img src="/placeholder.svg?height=80&width=80" alt="Jennifer Lee">
+                                </div>
+                                <div class="testimonial-author">
+                                    <h4>Jennifer Lee</h4>
+                                    <p>Software Engineer at InnovateTech</p>
+                                    <p class="testimonial-outcome">Hired within 30 days</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"As someone with no prior coding experience, I was worried about keeping up. The step-by-step curriculum and 1-on-1 mentorship helped me build confidence. Now I'm working as a backend developer and loving every minute of it."</p>
+                            <div class="testimonial-info">
+                                <div class="testimonial-image">
+                                    <img src="/placeholder.svg?height=80&width=80" alt="Robert Kim">
+                                </div>
+                                <div class="testimonial-author">
+                                    <h4>Robert Kim</h4>
+                                    <p>Backend Developer at DataFlow</p>
+                                    <p class="testimonial-outcome">Complete career change</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+            <div class="outcomes">
+                <div class="outcome-stat">
+                    <div class="outcome-number">93%</div>
+                    <p>Employment Rate</p>
+                </div>
+                <div class="outcome-stat">
+                    <div class="outcome-number">$85k</div>
+                    <p>Average Starting Salary</p>
+                </div>
+                <div class="outcome-stat">
+                    <div class="outcome-number">14</div>
+                    <p>Weeks Average to Job Offer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Flexible <span class="gradient-text">Pricing</span></h2>
+                <p>Choose the plan that fits your learning goals and budget</p>
+            </div>
+            <div class="pricing-toggle">
+                <span>Pay Upfront</span>
+                <label class="switch">
+                    <input type="checkbox" id="pricing-toggle">
+                    <span class="slider round"></span>
+                </label>
+                <span>Monthly Payments</span>
+            </div>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Part-Time</h3>
+                        <div class="price">
+                            <span class="upfront">$7,500</span>
+                            <span class="monthly">$625</span>
+                            <span class="period">/month for 12 months</span>
+                        </div>
+                        <p>Perfect for working professionals</p>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> 24-week program</li>
+                            <li><i class="fas fa-check"></i> 20 hours per week</li>
+                            <li><i class="fas fa-check"></i> Evening & weekend classes</li>
+                            <li><i class="fas fa-check"></i> 1-on-1 mentorship</li>
+                            <li><i class="fas fa-check"></i> Career support</li>
+                            <li><i class="fas fa-check"></i> Job guarantee</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="#trial" class="btn btn-outline">Enroll Now</a>
+                    </div>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Full-Time</h3>
+                        <div class="price">
+                            <span class="upfront">$12,000</span>
+                            <span class="monthly">$1,000</span>
+                            <span class="period">/month for 12 months</span>
+                        </div>
+                        <p>Immersive coding experience</p>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> 12-week intensive program</li>
+                            <li><i class="fas fa-check"></i> 40+ hours per week</li>
+                            <li><i class="fas fa-check"></i> Daily live instruction</li>
+                            <li><i class="fas fa-check"></i> 1-on-1 mentorship</li>
+                            <li><i class="fas fa-check"></i> Priority career support</li>
+                            <li><i class="fas fa-check"></i> Job guarantee</li>
+                            <li><i class="fas fa-check"></i> Industry networking events</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="#trial" class="btn btn-primary">Enroll Now</a>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">
+                            <span class="upfront">Custom</span>
+                            <span class="monthly">Custom</span>
+                            <span class="period">Contact for details</span>
+                        </div>
+                        <p>For teams and organizations</p>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Custom curriculum</li>
+                            <li><i class="fas fa-check"></i> Flexible scheduling</li>
+                            <li><i class="fas fa-check"></i> Dedicated instructors</li>
+                            <li><i class="fas fa-check"></i> Team projects</li>
+                            <li><i class="fas fa-check"></i> Progress reporting</li>
+                            <li><i class="fas fa-check"></i> White-label options</li>
+                            <li><i class="fas fa-check"></i> Bulk discounts available</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="#" class="btn btn-outline">Contact Sales</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-guarantee">
+                <i class="fas fa-shield-alt"></i>
+                <p>Job Guarantee: Get hired within 6 months of graduation or receive a full refund.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked <span class="gradient-text">Questions</span></h2>
+                <p>Everything you need to know about our bootcamp</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do I need prior coding experience?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No prior coding experience is required for our beginner-friendly courses. We start with the fundamentals and gradually build up to more advanced concepts. For specialized courses like Data Science, some basic programming knowledge is helpful but not mandatory.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How much time should I commit each week?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>For part-time programs, you should expect to commit 20-25 hours per week, including classes and independent work. Full-time programs require 40+ hours per week, similar to a full-time job. The more time you can dedicate to practice and projects, the better your results will be.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How does the job guarantee work?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our job guarantee ensures that if you don't secure a job within 6 months of graduation, you'll receive a full refund of your tuition. To qualify, you must complete all coursework, participate in career services activities, and actively apply for relevant positions. Full details are provided in our enrollment agreement.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What kind of support will I receive?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You'll receive comprehensive support throughout your journey, including live instruction, 1-on-1 mentorship sessions, code reviews, career coaching, and access to our student community. Our instructors and mentors are available via chat for quick questions, and you'll have regular check-ins to ensure you're on track.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Are there any financing options available?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer several financing options, including monthly payment plans, income share agreements (ISAs), and partnerships with lending providers. We also offer scholarships for underrepresented groups in tech. Our admissions team can help you find the best option for your situation.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What happens if I fall behind?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We understand that life happens, and sometimes you might need extra support. If you fall behind, your mentor will work with you to create a catch-up plan. We also offer additional tutoring sessions and the option to pause your enrollment and join a later cohort if necessary.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Free Trial Section -->
+    <section id="trial" class="free-trial">
+        <div class="container">
+            <div class="trial-content">
+                <div class="trial-text">
+                    <h2>Start Your Coding Journey <span class="gradient-text">Today</span></h2>
+                    <p>Try our free 7-day mini-course and experience our teaching methodology firsthand. No commitment required.</p>
+                    <ul class="trial-features">
+                        <li><i class="fas fa-check-circle"></i> Access to introductory lessons</li>
+                        <li><i class="fas fa-check-circle"></i> Live Q&A with instructors</li>
+                        <li><i class="fas fa-check-circle"></i> Hands-on coding exercises</li>
+                        <li><i class="fas fa-check-circle"></i> Community forum access</li>
+                    </ul>
+                </div>
+                <div class="trial-form">
+                    <h3>Sign Up for Free Trial</h3>
+                    <form id="trial-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="course-interest">I'm interested in</label>
+                            <select id="course-interest" name="course-interest" required>
+                                <option value="">Select a course</option>
+                                <option value="frontend">Frontend Development</option>
+                                <option value="backend">Backend Development</option>
+                                <option value="fullstack">Full Stack Development</option>
+                                <option value="data">Data Science & ML</option>
+                            </select>
+                        </div>
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="terms" name="terms" required>
+                            <label for="terms">I agree to the terms and privacy policy</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Start Free Trial</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="code-tag">&lt;</span>
+                    <h2>CodeCraft<span>Academy</span></h2>
+                    <span class="code-tag">/&gt;</span>
+                    <p>Transform your career with cutting-edge coding education</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Courses</h3>
+                        <ul>
+                            <li><a href="#">Frontend Development</a></li>
+                            <li><a href="#">Backend Development</a></li>
+                            <li><a href="#">Full Stack Development</a></li>
+                            <li><a href="#">Data Science & ML</a></li>
+                            <li><a href="#">DevOps Engineering</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Tutorials</a></li>
+                            <li><a href="#">Free Workshops</a></li>
+                            <li><a href="#">Career Guide</a></li>
+                            <li><a href="#">Student Success Stories</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Partners</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contact</h3>
+                        <ul class="contact-info">
+                            <li><i class="fas fa-envelope"></i> info@codecraftacademy.com</li>
+                            <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                            <li><i class="fas fa-map-marker-alt"></i> 123 Tech Street, San Francisco, CA 94107</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 CodeCraft Academy. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal" id="success-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <i class="fas fa-check-circle"></i>
+                <h3>You're All Set!</h3>
+                <p>Thank you for signing up for our free trial. Check your email for login details and next steps.</p>
+                <button class="btn btn-primary close-btn">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
